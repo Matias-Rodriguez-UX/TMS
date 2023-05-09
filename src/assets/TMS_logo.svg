@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW X8 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="45mm" height="50mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 4500 5000"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .str0 {stroke:#D5EDF2;stroke-width:200;stroke-linejoin:round}
+    .str1 {stroke:#09152C;stroke-width:200;stroke-linecap:round;stroke-linejoin:round}
+    .fil1 {fill:none}
+    .fil0 {fill:#D5EDF2}
+   ]]>
+  </style>
+ </defs>
+ <g id="Capa_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <polygon class="fil0 str0" points="2250,243 3227,807 4205,1372 4205,2500 4205,3628 3227,4193 2250,4757 1273,4193 295,3628 295,2500 295,1372 1273,807 "/>
+  <g id="_2135556115904">
+   <polyline class="fil1 str1" points="2058,1167 1297,1606 1297,2060 2809,1187 3216,1422 3216,1835 2859,1629 2473,1852 "/>
+   <polyline class="fil1 str1" points="1258,2536 1634,2319 1634,3641 2053,3882 "/>
+   <line class="fil1 str1" x1="2058" y1="2047" x2="2058" y2= "3422" />
+   <polyline class="fil1 str1" points="2852,2070 2470,2290 2470,3644 "/>
+  </g>
+ </g>
+</svg>

@@ -1,0 +1,19 @@
+.navbar {
+    display: flex;
+    justify-content:space-between;
+    margin-right: 1rem;
+    padding: 50px 0;
+    font-size: 1rem;
+margin-bottom: -3rem;
+    letter-spacing: 1px;
+    font-family: "Syncopate", sans-serif;
+    color: #0D4270;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+
+  .link a{
+    color: #0D4270;
+text-decoration: none;
+border-bottom: none;
+}

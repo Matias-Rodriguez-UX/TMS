@@ -1,0 +1,23 @@
+.footer {
+    text-align: center;
+    padding-bottom: 100px;
+    .location {
+      margin-top: 3rem;
+      font-size: 2vw;
+      text-transform: uppercase;
+      font-family: 'Syncopate', sans-serif;
+      color:#0D4270;
+      margin-bottom: 3rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+
+      opacity: 0;
+      &.is-reveal {
+        opacity: 1;
+      }
+
+    }
+    .email {
+        font-size: 2rem !important;
+    }
+  }

@@ -1,0 +1,48 @@
+  .header-container{
+    position: relative;
+
+    .header-menu{
+      position: absolute;
+      left: 0;
+      top: 5rem;
+
+      letter-spacing: 1px;
+      font-family: 'Syncopate', sans-serif;
+      color: #0D4270;
+      font-weight: 600;
+      text-transform: uppercase;
+
+      li {
+        margin: 1.5rem 0;
+      }
+    }
+
+    h1 {
+      font-size: 16.5vw;
+      text-transform: uppercase;
+      text-align: center;
+
+      font-family: 'Bai Jamjuree';
+      font-weight: 700;
+      color: #09152C;
+      margin-top: -8vh;
+
+    }
+    .arrows{
+      animation: latido 5s ease-in-out infinite ;
+    }
+    @keyframes latido {
+      0%{opacity: 0;
+          }
+      50%{opacity: 1;
+          }
+      100%{opacity: 0;
+          }
+  }
+  }
+  .lineParent{
+    overflow: hidden;
+  }
+  .lineChildren{
+    transform: translate(0, 500px);
+  }

@@ -1,0 +1,47 @@
+.clientes-section{
+    margin-top: -5vh;
+    padding: 0;
+height: auto;
+width: auto;
+margin-top: 1rem;
+margin-bottom: 1rem;
+.linea{
+    margin-left: -10vh;
+    width: 140vw;
+border: 2px solid #0D4270;
+}
+}
+
+.marquee{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: -10vh;
+    width: 140vw;
+    height: auto;
+    overflow: hidden ;
+    background-color: #09152C;
+}
+
+.marquee-content{
+    padding-top:7vh;
+    padding-bottom:7vh;
+    gap:10vh;
+    display: flex;
+list-style: none;
+animation: scrolling 18s linear infinite ;
+}
+
+.marquee-item{
+    height: 10vh;
+}
+
+@keyframes scrolling {
+    0%{opacity: 0;
+        transform: translateX(0); }
+    10%{opacity: 1;
+        transform: translateX(-10%)}
+    90%{opacity: 1;
+            transform: translateX(-130%)}
+    100%{opacity: 0;
+        transform: translateX(-140%); }
+}
