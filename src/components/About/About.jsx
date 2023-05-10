@@ -38,23 +38,16 @@ const About = () => {
   return (
     <section data-scroll-section className={cn("about-section")} id="about">
       <SectionHeader title="Nosotros" />
-      <p ref={ref} id="headline" className={cn({ "is-reveal": reveal })}>
-        Somos un equipo de ingenieros altamente capacitados y especializados en
-        el desarrollo y ejecución de proyectos de energía. Nos enorgullece
-        ofrecer un servicio integral de asistencia técnica en todas las
-        disciplinas del proyecto, desde la concepción y análisis del negocio,
-        hasta el soporte en las actividades de construcción y operación.
-      </p>
-      {/* <br />
-      <br />
-      <br /> */}
-      {/* <SectionHeader title="Soluciones" />
-      <p ref={ref} id="headline" className={cn({ "is-reveal": reveal })}>
-        Nos comprometemos a brindar soluciones innovadoras y eficientes que
-        cumplan con las necesidades específicas de cada proyecto y aseguren su
-        éxito a largo plazo. Con nuestro profesionalismo y experiencia, puede
-        confiar en que su proyecto estará en buenas manos.
-      </p> */}
+      <div className="about-info">
+        <p ref={ref} id="headline" className={cn({ "is-reveal": reveal })}>
+          Somos un equipo de ingenieros altamente capacitados y especializados
+          en el desarrollo y ejecución de proyectos de energía. Que ofrece un
+          servicio integral de asistencia técnica en todas las etapas del
+          proyecto, desde la concepción y análisis del negocio hasta el soporte
+          en las actividades de construcción y operación.
+        </p>
+        <div className="image-about"></div>
+      </div>
     </section>
   );
 };

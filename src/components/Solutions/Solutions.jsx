@@ -36,14 +36,21 @@ const Solutions = () => {
   }, [reveal]);
 
   return (
-    <section data-scroll-section className={cn("about-section")} id="solutions">
+    <section
+      data-scroll-section
+      className={cn("solution-section")}
+      id="solutions"
+    >
       <SectionHeader title="Soluciones" />
-      <p ref={ref} id="headline" className={cn({ "is-reveal": reveal })}>
-        Nos comprometemos a brindar soluciones innovadoras y eficientes que
-        cumplan con las necesidades específicas de cada proyecto y aseguren su
-        éxito a largo plazo. Con nuestro profesionalismo y experiencia, puede
-        confiar en que su proyecto estará en buenas manos.
-      </p>
+      <div className="solution-info">
+        <p ref={ref} id="headline" className={cn({ "is-reveal": reveal })}>
+          Brindamos soluciones innovadoras y eficientes que cumplen con las
+          necesidades específicas de cada proyecto y aseguran su éxito a largo
+          plazo. Con nuestro profesionalismo y experiencia, puede confiar en que
+          su proyecto estará en buenas manos.
+        </p>
+        <div className="image-solution"></div>
+      </div>
     </section>
   );
 };

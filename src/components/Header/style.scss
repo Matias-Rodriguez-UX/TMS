@@ -1,47 +1,45 @@
   .header-container{
+    height: 100vh;
+    margin-left: -5vw;
+    margin-right: -5vw;
     position: relative;
+    background-image: linear-gradient(to right, #d5edf258, #000f25b3), url(../../assets/fondoheader.jpg);
+    background-size: cover; /* Imagen */
+    background-repeat: no-repeat;
+    background-position:right;/* Imagen */
+    background-blend-mode: luminosity; /* Efecto */
+    .header-title{
+      height: 100vh;
+      max-width: 40vw;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+text-align: left;
+margin-left: 2rem;
 
-    .header-menu{
-      position: absolute;
-      left: 0;
-      top: 5rem;
-
-      letter-spacing: 1px;
-      font-family: 'Syncopate', sans-serif;
-      color: #0D4270;
-      font-weight: 600;
-      text-transform: uppercase;
-
-      li {
-        margin: 1.5rem 0;
-      }
     }
 
     h1 {
-      font-size: 16.5vw;
+      font-size: 5vw;
       text-transform: uppercase;
-      text-align: center;
-
       font-family: 'Bai Jamjuree';
       font-weight: 700;
       color: #09152C;
-      margin-top: -8vh;
-
+      animation: latido 3s ease-in-out ;
     }
-    .arrows{
-      animation: latido 5s ease-in-out infinite ;
+    .header-subtitulo{
+      margin-top: 2rem;
+      font-size: 2vw;
+      font-weight: 300;
+      color: #09152C;
     }
     @keyframes latido {
       0%{opacity: 0;
           }
-      50%{opacity: 1;
-          }
-      100%{opacity: 0;
+     100%{opacity: 1;
           }
   }
-  }
-  .lineParent{
-    overflow: hidden;
   }
   .lineChildren{
     transform: translate(0, 500px);

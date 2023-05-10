@@ -6,10 +6,7 @@ import "../styles/home.scss";
 import {
   About,
   Header,
-  Navbar,
-  SectionHeader,
   Services,
-  Footer,
   Solutions,
   Clients,
 } from "../components/index";
@@ -59,13 +56,11 @@ const Home = () => {
           id="main-container"
           data-scroll-container
         >
-          <Navbar />
           <Header />
           <About />
           <Clients />
           <Solutions />
           <Services />
-          <Footer />
         </div>
       )}
     </>

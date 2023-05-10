@@ -2,7 +2,7 @@
   background-color: #0D4270;
   margin-left: -5vw;
   margin-right: -5vw;
-  padding-bottom: 10rem;
+  padding-bottom: 2rem;
   padding-top: 0;
 }
 
@@ -58,8 +58,8 @@
     color: white;
     .gallery-info-title {
       line-height: 6vw;
-      font-family: "Bai Jamjuree";
-      font-weight: 600;
+      font-family: "Bodoni Moda", serif;
+      font-weight: 700;
 
       font-size: 6vw;
       -webkit-font-smoothing: antialiased;
@@ -96,7 +96,7 @@
     &.is-reveal {
       .gallery-item-image {
         transform: scale(1);
-        filter: none;
+        filter: brightness(60%);
       }
     }
   }

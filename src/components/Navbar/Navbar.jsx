@@ -1,6 +1,7 @@
 import React from "react";
 import "./style.scss";
-import logo from "../../assets/TMS_logo_negativo.svg";
+import logo from "../../assets/TMS_ing_logo.svg";
+import ContactButton from "../Button/ContactButton";
 
 const Navbar = () => {
   const links = document.querySelectorAll(".link a[data-section]");
@@ -19,13 +20,11 @@ const Navbar = () => {
         <img
           src={logo}
           alt=""
-          style={{ width: "80px", height: "auto", marginTop: "-2rem" }}
+          style={{ width: "auto", height: "70px", marginTop: "-2rem" }}
         />
       </div>
-      <div className="link">
-        <a href="" data-section="about">
-          Simulador
-        </a>
+      <div className="button-nav">
+        <ContactButton />
       </div>
     </div>
   );
