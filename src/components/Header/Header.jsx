@@ -1,10 +1,9 @@
 import React, { useEffect, useRef, useState } from "react";
 import gsap from "gsap";
-import SplitText from "../../utils/Split3.min";
-import downArrow from "../../assets/downArrow.svg";
 
 import "./style.scss";
 import Navbar from "../Navbar/Navbar";
+import ContactButton from "../Button/ContactButton";
 
 const Header = () => {
   useEffect(() => {
@@ -27,6 +26,9 @@ const Header = () => {
           Servicio de asesoría técnica para proyectos de energía, de principio a
           fin
         </h2>
+        <div className="sector-boton">
+          <ContactButton />
+        </div>
       </div>
     </section>
   );

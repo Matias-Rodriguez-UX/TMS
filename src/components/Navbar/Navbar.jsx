@@ -1,7 +1,7 @@
 import React from "react";
 import "./style.scss";
 import logo from "../../assets/TMS_ing_logo.svg";
-import ContactButton from "../Button/ContactButton";
+import { linkedin, twitter } from "../../assets/logos";
 
 const Navbar = () => {
   const links = document.querySelectorAll(".link a[data-section]");
@@ -24,7 +24,20 @@ const Navbar = () => {
         />
       </div>
       <div className="button-nav">
-        <ContactButton />
+        <a
+          href="https://www.linkedin.com/company/tmsingenieria"
+          target="_blank"
+        >
+          <img
+            src={linkedin}
+            alt=""
+            style={{
+              cursor: "pointer",
+              marginRight: "2rem",
+              marginTop: "1rem",
+            }}
+          />
+        </a>
       </div>
     </div>
   );

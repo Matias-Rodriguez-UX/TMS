@@ -1,8 +1,11 @@
 .about-section {
 .about-info{
+  width: 80vw;
+  height: 80vh;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
+  gap: 3vw;
   p {
 width: 50vw;
 text-align: justify;
@@ -18,32 +21,44 @@ margin-right: 2rem;
       opacity: 1;
     }
   }
-  .image-about{
+  .about-image-container{
+    margin-top: -20vw;
+    position: relative;
     width: 40vw;
-    height: 60vh;
+    height: 50vh;
+
+  .image-about{
+    width: 500px;
+    height: 500px;
+    clip-path: polygon(49% 6%, 93% 26%, 92% 72%, 49% 93%, 5% 72%, 6% 26%);
     background-image: url(../../assets/team.jpg);
     background-size: cover; /* Imagen */
     background-repeat: no-repeat;
-    position: relative;
     background-color: rgba(0, 0, 0, 0);
     box-shadow: rgba(0, 0, 0, 0.24) 0px 6px 16px;
     user-select: none;
     }
-    .image-about:after {
-      content: "";
-      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-      background-color: rgba(0, 0, 0, 0.24);
-      width: 100%;
-      z-index: -1;
+    .form-about{
+      width:200px;
+      height: 250px;
+      clip-path: polygon(49% 6%, 93% 26%, 92% 72%, 49% 93%, 5% 72%, 6% 26%);
+      background-image: url(../../assets/molino.jpg);
+      background-size: cover; /* Imagen */
+      background-repeat: no-repeat;
+      box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+      user-select: none;
+      z-index: 1;
       position: absolute;
-      height: 100%;
-      top: 8px;
-      left: 8px;
-      transition: 0.2s;
+      top: 300px;
+      left: -60px;
     }
-    .image-about:hover:after {
-      top: 0px;
-      left: 0px;
-    }
+  }
 }
+}
+.about-text{
+  margin-left: 15vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 3vw;
 }

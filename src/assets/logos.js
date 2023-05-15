@@ -8,6 +8,8 @@ import sinec from "./sinec-gris.png";
 import transelec from "./transelec-gris-2.png";
 import ypf from "./ypf-gris-2.png";
 import ypfluz from "./ypf-luz-gris-2.png";
+import linkedin from "./icons-linkedin.svg";
+import twitter from "./icons-twitter.svg";
 
 export {
   aggreko,
@@ -20,4 +22,6 @@ export {
   transelec,
   ypf,
   ypfluz,
+  linkedin,
+  twitter,
 };

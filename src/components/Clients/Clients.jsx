@@ -18,7 +18,10 @@ import "./style.scss";
 const Clients = () => {
   return (
     <section className="clientes-section" data-scroll-section id="clients">
-      <SectionHeader title="Clientes" />
+      <div style={{ marginLeft: "-3rem" }}>
+        <SectionHeader title="Trabajamos junto a estas empresas" />
+      </div>
+
       <hr className="linea" />
       <div className="marquee">
         <ul className="marquee-content">

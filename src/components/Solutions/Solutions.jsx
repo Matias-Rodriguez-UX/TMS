@@ -41,14 +41,17 @@ const Solutions = () => {
       className={cn("solution-section")}
       id="solutions"
     >
-      <SectionHeader title="Soluciones" />
       <div className="solution-info">
-        <p ref={ref} id="headline" className={cn({ "is-reveal": reveal })}>
-          Brindamos soluciones innovadoras y eficientes que cumplen con las
-          necesidades específicas de cada proyecto y aseguran su éxito a largo
-          plazo. Con nuestro profesionalismo y experiencia, puede confiar en que
-          su proyecto estará en buenas manos.
-        </p>
+        <div className="solution-text">
+          <SectionHeader title="Soluciones para cada necesidad y para cada cliente" />
+          <p ref={ref} id="headline" className={cn({ "is-reveal": reveal })}>
+            Brindamos soluciones innovadoras y eficientes que cumplen con las
+            necesidades específicas de cada proyecto y aseguran su éxito a largo
+            plazo. Con nuestro profesionalismo y experiencia, puede confiar en
+            que su proyecto estará en buenas manos.
+          </p>
+        </div>
+        <div className="image-form"></div>
         <div className="image-solution"></div>
       </div>
     </section>

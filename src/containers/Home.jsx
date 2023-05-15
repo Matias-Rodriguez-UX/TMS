@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { useEffect } from "react";
 import { useRef } from "react";
-import CustomCursor from "../CustomCursor";
 import "../styles/home.scss";
 import {
   About,
@@ -39,7 +38,6 @@ const Home = () => {
 
   return (
     <>
-      <CustomCursor />
       {preLoader ? (
         <div className="loader-wrapper absolute">
           <img
