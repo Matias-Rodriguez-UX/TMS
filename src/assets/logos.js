@@ -10,6 +10,7 @@ import ypf from "./ypf-gris-2.png";
 import ypfluz from "./ypf-luz-gris-2.png";
 import linkedin from "./icons-linkedin.svg";
 import twitter from "./icons-twitter.svg";
+import instagram from "./icons-instagram.svg";
 
 export {
   aggreko,
@@ -24,4 +25,5 @@ export {
   ypfluz,
   linkedin,
   twitter,
+  instagram,
 };

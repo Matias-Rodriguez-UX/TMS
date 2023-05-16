@@ -1,7 +1,7 @@
 import React from "react";
 import "./style.scss";
 import logo from "../../assets/TMS_ing_logo.svg";
-import { linkedin, twitter } from "../../assets/logos";
+import { linkedin, twitter, instagram } from "../../assets/logos";
 
 const Navbar = () => {
   const links = document.querySelectorAll(".link a[data-section]");
@@ -30,6 +30,34 @@ const Navbar = () => {
         >
           <img
             src={linkedin}
+            alt=""
+            style={{
+              cursor: "pointer",
+              marginRight: "2rem",
+              marginTop: "1rem",
+            }}
+          />
+        </a>
+        <a
+          href="https://www.linkedin.com/company/tmsingenieria"
+          target="_blank"
+        >
+          <img
+            src={instagram}
+            alt=""
+            style={{
+              cursor: "pointer",
+              marginRight: "2rem",
+              marginTop: "1rem",
+            }}
+          />
+        </a>
+        <a
+          href="https://www.linkedin.com/company/tmsingenieria"
+          target="_blank"
+        >
+          <img
+            src={twitter}
             alt=""
             style={{
               cursor: "pointer",

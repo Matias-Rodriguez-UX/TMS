@@ -51,8 +51,10 @@ const Solutions = () => {
             que su proyecto estará en buenas manos.
           </p>
         </div>
-        <div className="image-form"></div>
-        <div className="image-solution"></div>
+        <div className="contenedor-imagen-solucion">
+          <div className="image-form"></div>
+          <div className="image-solution"></div>
+        </div>
       </div>
     </section>
   );

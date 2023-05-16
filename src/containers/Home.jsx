@@ -8,6 +8,7 @@ import {
   Services,
   Solutions,
   Clients,
+  Footer,
 } from "../components/index";
 import useLocoScroll from "../hooks/useLocoScroll";
 import logo from "../assets/TMS_logo.svg";
@@ -49,17 +50,20 @@ const Home = () => {
           <h2>Argentina</h2>
         </div>
       ) : (
-        <div
-          className="main-container"
-          id="main-container"
-          data-scroll-container
-        >
-          <Header />
-          <About />
-          <Clients />
-          <Solutions />
-          <Services />
-        </div>
+        <>
+          <div
+            className="main-container"
+            id="main-container"
+            data-scroll-container
+          >
+            <Header />
+            <About />
+            <Clients />
+            <Solutions />
+            <Services />
+            <Footer />
+          </div>
+        </>
       )}
     </>
   );
