@@ -52,3 +52,30 @@ margin-left: 3rem;
   justify-content: end;
   margin-top: 5vh;
 }
+
+@media (max-width: 600px) {
+  /* Estilos específicos para pantallas pequeñas */
+  .header-container{
+    background-image: linear-gradient(to right, #aed6e5e6, #70add2c7), url(../../assets/fondoheader.jpg);
+    background-blend-mode:normal;
+    height: 95vh;
+    .header-title{
+      max-width: 100%;
+      margin-right: 1rem;
+
+      h1 {
+        font-size: 2.5rem;
+        margin-bottom: 2rem;
+    }
+    .header-subtitulo{
+      font-size: 1.5rem;
+      font-weight: 300;
+      margin-bottom: 2rem;
+    }
+    .sector-boton{
+      margin-top: 2rem;
+      margin-right: 2rem;
+    }
+  }
+}
+}

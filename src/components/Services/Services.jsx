@@ -10,25 +10,28 @@ import "./style.scss";
 const Services = () => {
   const [activeService, setActiveService] = useState(1);
   const ref = useRef(null);
+  let anchoVentana = window.innerWidth;
 
   useEffect(() => {
-    setTimeout(() => {
-      let sections = gsap.utils.toArray(".gallery-item-wraper");
-      gsap.to(sections, {
-        xPercent: -100 * (sections.length - 1),
-        ease: "none",
-        scrollTrigger: {
-          start: "top top",
-          trigger: ref.current,
-          scroller: "#main-container",
-          pin: true,
-          scrub: 0.5,
-          snap: 1 / (sections.length - 1),
-          end: () => `+=${ref.current.offsetWidth}`,
-        },
+    if (anchoVentana > 600) {
+      setTimeout(() => {
+        let sections = gsap.utils.toArray(".gallery-item-wraper");
+        gsap.to(sections, {
+          xPercent: -100 * (sections.length - 1),
+          ease: "none",
+          scrollTrigger: {
+            start: "top top",
+            trigger: ref.current,
+            scroller: "#main-container",
+            pin: true,
+            scrub: 0.5,
+            snap: 1 / (sections.length - 1),
+            end: () => `+=${ref.current.offsetWidth}`,
+          },
+        });
+        ScrollTrigger.refresh();
       });
-      ScrollTrigger.refresh();
-    });
+    }
   }, []);
 
   const handleUpdateActiveService = (index) => {

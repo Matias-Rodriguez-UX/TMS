@@ -112,3 +112,22 @@ section {
   }
 }
 
+@media (max-width: 600px) {
+
+  section {
+    padding: 1rem 0;
+    .section-header {
+      margin-bottom: 50px;
+    }
+  }
+  .loader-wrapper {
+    h1 {
+      font-size: 2rem;
+    }
+    h2 {
+      font-size: 1rem;
+    }
+
+  }
+
+}

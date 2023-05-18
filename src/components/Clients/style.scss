@@ -45,3 +45,29 @@ animation: scrolling 18s linear infinite ;
     100%{opacity: 0;
         transform: translateX(-140%); }
 }
+
+.header-client{
+    margin-left: -3rem;
+}
+
+@media (max-width: 600px) {
+    .header-client{
+        margin-left: -1rem;
+    }
+    .marquee-item{
+        height: 30px;
+    }
+    .marquee-content{
+        padding-top:1rem;
+        padding-bottom:1rem;
+        gap:2rem;
+        display: flex;
+    }
+    .marquee{
+        margin-top: 0;
+margin-bottom: 0;
+    }
+    .clientes-section{
+        margin-bottom: 2rem;
+    }
+}

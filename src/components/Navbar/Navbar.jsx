@@ -17,54 +17,26 @@ const Navbar = () => {
   return (
     <div className="navbar" data-scroll-section>
       <div>
-        <img
-          src={logo}
-          alt=""
-          style={{ width: "auto", height: "70px", marginTop: "-2rem" }}
-        />
+        <img src={logo} alt="" className="logo-tms" />
       </div>
       <div className="button-nav">
         <a
           href="https://www.linkedin.com/company/tmsingenieria"
           target="_blank"
         >
-          <img
-            src={linkedin}
-            alt=""
-            style={{
-              cursor: "pointer",
-              marginRight: "2rem",
-              marginTop: "1rem",
-            }}
-          />
+          <img src={linkedin} alt="" className="red-social-icon" />
         </a>
         <a
           href="https://www.linkedin.com/company/tmsingenieria"
           target="_blank"
         >
-          <img
-            src={instagram}
-            alt=""
-            style={{
-              cursor: "pointer",
-              marginRight: "2rem",
-              marginTop: "1rem",
-            }}
-          />
+          <img src={instagram} alt="" className="red-social-icon" />
         </a>
         <a
           href="https://www.linkedin.com/company/tmsingenieria"
           target="_blank"
         >
-          <img
-            src={twitter}
-            alt=""
-            style={{
-              cursor: "pointer",
-              marginRight: "2rem",
-              marginTop: "1rem",
-            }}
-          />
+          <img src={twitter} alt="" className="red-social-icon" />
         </a>
       </div>
     </div>

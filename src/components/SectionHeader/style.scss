@@ -9,3 +9,9 @@
     margin-left: 3rem;
     margin-right:1rem ;
 }
+
+@media (max-width: 600px) {
+    .section-header{
+        font-size: 1.5rem;
+    }
+}

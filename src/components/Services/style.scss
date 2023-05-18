@@ -89,7 +89,7 @@
     aspect-ratio: 16/9;
     height: 80%;
     display: grid;
-    grid-template-columns: 20vw 1fr 200px;
+    grid-template-columns: 20vw 1fr 300px;
     width: 90vw;
 
     &.is-reveal {
@@ -110,4 +110,87 @@
     transition: all 1.5s cubic-bezier(0.77, 0, 0.175, 1);
  filter: grayscale(100%) sepia(20%) brightness(80%);
   }
+}
+
+@media (max-width: 600px) {
+  .gallery-wrap{
+    background-color: #0D4270;
+    margin-left: -2rem;
+    margin-right:  -2rem;
+    padding-bottom: 2rem;
+    padding-top: 0;
+    height: 2550px;
+  }
+  .gallery-counter{
+    display: none;
+  }
+  .gallery{
+    height: auto;
+  padding: 0;
+  width: 100%;
+  padding-right: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 15rem;
+  .gallery-item-info {
+    width: 80vw;
+    height: auto;
+    position: absolute;
+    top: 300px;
+    bottom: 0;
+    z-index: 1;
+    bottom: 0;
+    left: 0;
+    transform: translateX(-20%);
+    color: #D5EDF2;
+    .gallery-info-title {
+      line-height: 2rem;
+      font-family: "Bai Jamjuree";
+      font-weight: 700;
+      font-size: 2rem;
+      -webkit-font-smoothing: antialiased;
+      margin-bottom: 2rem;
+    }
+
+    .gallery-info-category {
+      position: relative;
+      line-height: 1.5rem;
+      font-family: "Poppins", sans-serif;
+      font-weight: 400;
+      font-size: 1.1rem;
+      -webkit-font-smoothing: antialiased;
+      margin-bottom: 0;
+      margin-top: 0;
+    }
+  }
+  .gallery-item-wraper {
+    aspect-ratio: 16/9;
+    height: 80%;
+    display: grid;
+    grid-template-rows: 2vw 1fr 80vw;
+    gap: 2rem;
+    width: 100vw;
+    margin-right: 1rem;
+
+    &.is-reveal {
+      .gallery-item-image {
+        transform: none
+      }
+    }
+  }
+  .gallery-item-image {
+    position: absolute;
+    top: 60px;
+    left: -60px;
+    background-size: cover;
+    background-position: center;
+    transform-origin: center;
+    width: 300px;
+    height: 200px;
+    will-change: transform;
+    transform: none;
+    transition: none;
+ filter: grayscale(100%) sepia(20%) brightness(80%);
+  }
+}
 }
